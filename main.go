@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	targetUrl := "http://4gzdepsqsd.falali.cfd" // 目标域名和端口
+	targetUrl := "https://api.bilibili.li" // 目标域名和端口
 	target, err := url.Parse(targetUrl)
 	if err != nil {
 		log.Fatal(err)
