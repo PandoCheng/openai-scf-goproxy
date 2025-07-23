@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	targetUrl := "https://dongjing-zjwohrnhys.ap-northeast-1.fcapp.run" // 目标域名和端口
+	targetUrl := "https://api.547854455.xyz" // 目标域名和端口
 	target, err := url.Parse(targetUrl)
 	if err != nil {
 		log.Fatal(err)
